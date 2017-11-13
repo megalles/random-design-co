@@ -96,17 +96,34 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+* {
+  padding: 0;
+  margin: 0;
+}
+
 html {
   box-sizing: border-box;
   }
   *, *:before, *:after {
   box-sizing: inherit;
+  font-family: sans-serif;
 }
 
 body {        
   border: 1px solid red;
 }
 
+.page-header {
+    background-color: #000;
+    color: #fff;  
+    padding: 1em;
+}
+
+.page-header h1 {
+  font-size: 1em;
+  text-transform: uppercase;
+  margin: 0;
+}
 
 
 
