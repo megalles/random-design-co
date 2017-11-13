@@ -96,7 +96,7 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-* {
+h1, h2, h3 {
   padding: 0;
   margin: 0;
 }
@@ -109,22 +109,101 @@ html {
   font-family: sans-serif;
 }
 
-body {        
-  border: 1px solid red;
-}
 
+/*header*/
 .page-header {
+    position: fixed;
+    width: 100%;
     background-color: #000;
     color: #fff;  
     padding: 1em;
 }
 
 .page-header h1 {
+  float: left;
   font-size: 1em;
   text-transform: uppercase;
   margin: 0;
 }
 
+i {
+  float: right;
+}
+/*landing*/
+
+.background {
+  display: block;
+  position: relative;
+  z-index: -10;
+  width: 100%;
+}
+
+.landing img{
+  width: 100%;
+}
+
+.main_bold {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  text-align: center;
+  }
+
+.main_bold h1 {
+  font-size: 300%;
+  text-transform: uppercase;
+  color: white;
+  margin-bottom: 1em;
+}
+
+.main_bold a {
+  font-size: 150%;
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid white;
+  padding: .5em 1em;
+  text-transform: uppercase;
+}
+
+.main_bold a:hover {
+  background-color: white;
+  color: black;
+}
+
+/*work*/
+
+h3 {
+  padding: 1em;
+}
+
+.about p {
+  padding: 0 1em;
+  padding-bottom: 2em;
+  border-bottom: solid 1px #D3D3D3;
+  font-size: 1.4em;
+}
+
+.project {
+  width: 50%;
+  float: left;
+}
+
+.project img {
+  width: 100%;
+}
+
+.work {
+  overflow: auto;
+  padding-bottom: 2em
+}
+
+/*footer*/
+
+footer {
+  text-align: center;
+  padding-top: 2em;
+  border-top: solid 1px #D3D3D3; 
+}
 
 
 
